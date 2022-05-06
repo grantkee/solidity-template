@@ -20,7 +20,7 @@ contract Conditions {
     }
 
     // if/else in solidity
-    function foo(uint x) public return (uint) {
+    function foo(uint x) public returns (uint) {
         if (x < 10) {
             return 0;
         } else if (x < 20) {
